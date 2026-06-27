@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#navBar{
+    width:100%;
+    background-color: skyblue;
+    height:50px;
+}
+#navBar,ul{
+    display:flex;
+    align-items: center
+}
+#navBar,ul,li{
+    font-size: 20px;
+    margin:5px;
+}
