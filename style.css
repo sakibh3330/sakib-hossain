@@ -5,14 +5,78 @@
 }
 #navBar{
     width:100%;
-    background-color: skyblue;
+    background-color: rgb(1, 16, 22);
     height:50px;
+    margin:0;
+    padding:0;
 }
 #navBar,ul{
     display:flex;
-    align-items: center
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin:0;
+    padding: 10px;
 }
 #navBar,ul,li{
-    font-size: 20px;
-    margin:5px;
+    padding:10px;
 }
+#navBar,ul,li,a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white
+}
+#navBar ul li a:hover{
+    font-size: 25px;
+    border: 2px solid;
+    padding: 5px;
+}
+#hero{
+    width:100%;
+}
+#hero,img{
+    width:100%;
+}
+#aboutHeading{
+    text-align:center;
+}
+#about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#subAbout{
+    display:flex;
+    justify-content: center;
+    width:90%;
+    border:3px solid black;
+    margin: 10px;
+    border-radius:10px;
+}
+#subAbout1{
+    padding:15px;
+}
+#subAbout2{
+    padding:15px;
+}
+#project{
+    padding:15px;
+}
+#socialMedia{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(1, 16, 22);
+    height:100px;
+    gap: 20px; 
+}
+#fb i, #x i, #linkedin i, #youtube i {
+  color: #708197;
+  font-size: 40px;         
+  transition: color 0.3s;
+}
+#fb:hover i { color: #1877f2; }
+#x:hover i { color:  #ffffff;; }
+#linkedin:hover i { color: #0077b5; }
+#youtube:hover i { color: #ff0000; }
